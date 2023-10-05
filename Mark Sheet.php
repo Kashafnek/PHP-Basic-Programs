@@ -12,7 +12,7 @@ if ($marks >= 90) {
 } elseif ($marks >= 50) {
     $grade = 'D';
 } else {
-    $grade = 'F';
+    $grade = 'Fail';
 }
 
 echo "Marks: $marks<br>";
